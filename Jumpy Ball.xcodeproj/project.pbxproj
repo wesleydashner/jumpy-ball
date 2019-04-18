@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E216AB822691BA400A24AE4 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E216AB722691BA400A24AE4 /* PhysicsCategory.swift */; };
 		3EB520FA22690FA0008BC652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB520F922690FA0008BC652 /* AppDelegate.swift */; };
 		3EB520FC22690FA0008BC652 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB520FB22690FA0008BC652 /* GameScene.sks */; };
 		3EB520FE22690FA0008BC652 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB520FD22690FA0008BC652 /* Actions.sks */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E216AB722691BA400A24AE4 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		3EB520F622690FA0008BC652 /* Jumpy Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumpy Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB520F922690FA0008BC652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EB520FB22690FA0008BC652 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				3EB520FB22690FA0008BC652 /* GameScene.sks */,
 				3EB520FD22690FA0008BC652 /* Actions.sks */,
 				3EB520FF22690FA0008BC652 /* GameScene.swift */,
+				3E216AB722691BA400A24AE4 /* PhysicsCategory.swift */,
 				3EB5210122690FA0008BC652 /* GameViewController.swift */,
 				3EB5210322690FA0008BC652 /* Main.storyboard */,
 				3EB5210622690FA1008BC652 /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3EB5210022690FA0008BC652 /* GameScene.swift in Sources */,
+				3E216AB822691BA400A24AE4 /* PhysicsCategory.swift in Sources */,
 				3EB5210222690FA0008BC652 /* GameViewController.swift in Sources */,
 				3EB520FA22690FA0008BC652 /* AppDelegate.swift in Sources */,
 			);
