@@ -25,7 +25,10 @@ class GameScene: SKScene {
         self.addChild(ground)
         
         ball = SKSpriteNode(imageNamed: "ball")
-        ball.size = CGSize(width: 84, height: 98)
+        ball.size = CGSize(width: 70, height: 70)
+        ball.position = CGPoint(x: -(ball.frame.width * 2), y: 0)
+        self.addChild(ball)
+        
     }
     
     
