@@ -25,9 +25,30 @@ class GameScene: SKScene {
         self.addChild(ground)
         
         ball = SKSpriteNode(imageNamed: "ball")
-        ball.size = CGSize(width: 70, height: 70)
+        ball.size = CGSize(width: 80, height: 80)
         ball.position = CGPoint(x: -(ball.frame.width * 2), y: 0)
         self.addChild(ball)
+        
+        createWall()
+        
+    }
+    
+    
+    func createWall() {
+        
+        let wallPair = SKNode()
+        let topWall = SKSpriteNode(imageNamed: "wall")
+        let bottomWall = SKSpriteNode(imageNamed: "wall")
+        
+        topWall.position = CGPoint(x: 0, y: 500)
+        bottomWall.position = CGPoint(x: 0, y: -500)
+        topWall.setScale(0.7)
+        bottomWall.setScale(0.7)
+        
+        wallPair.addChild(topWall)
+        wallPair.addChild(bottomWall)
+        
+        self.addChild(wallPair)
         
     }
     
