@@ -6,9 +6,6 @@
 //  Copyright © 2019 Wesley Dashner. All rights reserved.
 //
 
-// AdMob App ID: ca-app-pub-4988685536796370~4452502012
-// AdBanner ID: ca-app-pub-4988685536796370/8746970240
-
 import SpriteKit
 import GameplayKit
 
