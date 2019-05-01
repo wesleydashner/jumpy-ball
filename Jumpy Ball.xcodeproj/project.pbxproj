@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3E216AB822691BA400A24AE4 /* PhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E216AB722691BA400A24AE4 /* PhysicsCategory.swift */; };
 		3E216ABA226A5A6D00A24AE4 /* NexaHeavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3E216AB9226A5A6D00A24AE4 /* NexaHeavy.otf */; };
+		3E70786822793BBC003D2DAA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E70786722793BBC003D2DAA /* GoogleService-Info.plist */; };
 		3EB520FA22690FA0008BC652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB520F922690FA0008BC652 /* AppDelegate.swift */; };
 		3EB520FC22690FA0008BC652 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB520FB22690FA0008BC652 /* GameScene.sks */; };
 		3EB520FE22690FA0008BC652 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3EB520FD22690FA0008BC652 /* Actions.sks */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		3E216AB722691BA400A24AE4 /* PhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategory.swift; sourceTree = "<group>"; };
 		3E216AB9226A5A6D00A24AE4 /* NexaHeavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = NexaHeavy.otf; path = "../../../../Downloads/nexa-bold-cufonfonts/NexaHeavy.otf"; sourceTree = "<group>"; };
+		3E70786722793BBC003D2DAA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3EB520F622690FA0008BC652 /* Jumpy Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jumpy Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB520F922690FA0008BC652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EB520FB22690FA0008BC652 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				3EB5210622690FA1008BC652 /* Assets.xcassets */,
 				3EB5210822690FA1008BC652 /* LaunchScreen.storyboard */,
 				3EB5210B22690FA1008BC652 /* Info.plist */,
+				3E70786722793BBC003D2DAA /* GoogleService-Info.plist */,
 			);
 			path = "Jumpy Ball";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				3EB5210A22690FA1008BC652 /* LaunchScreen.storyboard in Resources */,
 				3EB520FE22690FA0008BC652 /* Actions.sks in Resources */,
 				3E216ABA226A5A6D00A24AE4 /* NexaHeavy.otf in Resources */,
+				3E70786822793BBC003D2DAA /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
