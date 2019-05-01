@@ -110,7 +110,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func createRestartButton() {
         restartButton = SKSpriteNode(imageNamed: "restartButton")
         restartButton.setScale(0.15)
-        restartButton.position = CGPoint(x: 0, y: 400)
+        restartButton.position = CGPoint(x: 0, y: 375)
         restartButton.zPosition = 3
         self.addChild(restartButton)
     }
