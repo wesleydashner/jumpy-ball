@@ -103,7 +103,6 @@
 				B0B309910E1902CA3DEB28B0 /* Pods-Jumpy Ball.debug.xcconfig */,
 				7F01654E79D6E1E2B497BD12 /* Pods-Jumpy Ball.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -391,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Jumpy-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Hoppy-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -411,7 +410,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Jumpy-Ball";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wesleydashner.Hoppy-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
