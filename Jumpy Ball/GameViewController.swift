@@ -23,9 +23,10 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         // Change this string between test ads and actual ads ID's
-        bannerView.adUnitID = "ca-app-pub-4988685536796370/8746970240"
-        bannerView.rootViewController = self
-        bannerView.load(GADRequest())
+        // commented out to remove ad (didn't comment out anything else)
+//        bannerView.adUnitID = "ca-app-pub-4988685536796370/8746970240"
+//        bannerView.rootViewController = self
+//        bannerView.load(GADRequest())
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
